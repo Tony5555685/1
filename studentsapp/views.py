@@ -26,7 +26,7 @@ parser  = WebhookParser(settings.LINE_CHANNEL_SECRET)
 app = Flask(__name__)
 
 # 必須放上自己的Channel Access Token
-line_bot_api = LineBotApi('Ri9lT/qq4uCbWEAUeUJR2p6203jYy/gdHVJGKS2KrCmb20hfJZQArZdxQOUVy0cZZrAj5RGKMd19PxDngXFx83QMgzIEuVBFId2G4+XZzYQ7xrXRVuRIg45MCtn0Ye4scl+hwgQ+krG1W///mbw6/wdB04t89/1O/w1cDnyilFU=
+line_bot_api = LineBotApi('ov3reaci3XBJg8OV5sI2xhSJF0Y9E3SDQ+qHH7SOoG/gKLA7PrKhJk4/2S6OCRRTZrAj5RGKMd19PxDngXFx83QMgzIEuVBFId2G4+XZzYR8LtSDrxy19Jq9avodgNftvnZypYwGFZFDEofvdnW4rwdB04t89/1O/w1cDnyilFU=
 ')
 # 必須放上自己的Channel Secret
 handler = WebhookHandler('63add4ec777a184c8fac20f2b171fa82')
