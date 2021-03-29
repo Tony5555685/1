@@ -19,8 +19,9 @@ parser  = WebhookParser(settings.LINE_CHANNEL_SECRET)
 app = Flask(__name__)
 
 # 必須放上自己的Channel Access Token
-line_bot_api = LineBotApi('528gEzSdPX8Pw9mTJlfpXRpTBdETmaT0LJuHs8+3/qBsiz1lWzBRIfWXQexgOdiPyGxeLtL9HAggCjAp0LBJcqKAdv7h8Ux5JQpKMioyobyYoBQpwer/eA3cA1e89/b80sl219M34lvpXlAAFud++wdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('Ri9lT/qq4uCbWEAUeUJR2p6203jYy/gdHVJGKS2KrCmb20hfJZQArZdxQOUVy0cZZrAj5RGKMd19PxDngXFx83QMgzIEuVBFId2G4+XZzYQ7xrXRVuRIg45MCtn0Ye4scl+hwgQ+krG1W///mbw6/wdB04t89/1O/w1cDnyilFU=
+')
 # 必須放上自己的Channel Secret
-handler = WebhookHandler('43664ae683e1af5eb58087c85b74216d')
+handler = WebhookHandler('63add4ec777a184c8fac20f2b171fa82')
 
-line_bot_api.push_message('Ub8e3cf75739079f25a50f82b2cbd4c63', TextSendMessage(text='你可以開始了'))
+line_bot_api.push_message('Ubbd823b1d50c5d24216d3cfb2fd0f374', TextSendMessage(text='你可以開始了'))
